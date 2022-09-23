@@ -11,7 +11,7 @@ export class UsersController {
     }
     database.push()
     return response.status(201).json({ 'mensagem': "deu certo" })
-  }
+  } 
 
   listarUsuario(request: Request, response: Response): Response {
     return response.status(200).json(database)
